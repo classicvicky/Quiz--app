@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #001e4d;
+}
+
+.hero{
+display: block;
+width: 80%;
+max-width: 800px;
+margin: 100px auto 0;
+border-radius: 10px;
+padding: 30px;
+color: #fff;
+display: block;
+}
+
+.hero h1 {
+font-size: 60px;
+color: #fff;
+font-weight: 600;
+padding-bottom: 20px;
+text-align: center;
+}
+
+.hero p {
+font-size: 30px;
+text-align: center;
+margin-bottom: 60px;
+}
+
+.hero a {
+color: #fff;
+text-decoration: none;
+padding: 7px 25px;
+text-align: center;
+font-size: 30px;
+ margin: 50% 40%;
+border-radius: 10px;
+border: 1px solid #fff;
+/* outline: ; */
+}
+
+
+.app {
+    background: #fff;
+    width: 90%; 
+    max-width: 600px;
+    margin:  auto;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 9%;
+   
+}
+.app h1 {
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+.quiz {
+    padding: 20px 0;
+    /* outline: red; */
+}
+.quiz h2 {
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+    /* outline: red; */
+}
+.btn {
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.btn:hover:not([disabled]) {
+    background: #222;
+    color: #fff;
+} 
+.btn:disabled {
+    cursor: no-drop;
+}
+#next-btn {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 20px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+.correct {
+    background: #9aeabc;
+}
+.incorrect {
+    background: #ff9393;
+}
+
+.btn-container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding:0px;
+}
+.home-btn {
+    color: #001e4d;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+@media (max-width:700px) {
+    .hero {
+        width: 80%;
+        margin: 10px auto;
+    }
+    .hero h1 {
+        font-size: 50px;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+    .hero p {
+        font-size: 30px;
+    }
+    /* a {
+        margin: 50% 20%;
+    } */
+    }
